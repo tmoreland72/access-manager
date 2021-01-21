@@ -1,0 +1,23 @@
+{
+   "version": 2,
+   "allowedOrigins": [
+      "https://tm-norway1.dev-rapididentity.com",
+      "http://localhost:8080"
+   ],
+   "allowedMethods": ["GET", "HEAD", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
+   "allowedHeaders": [
+      "Origin",
+      "Accept",
+      "X-Requested-With",
+      "Content-Type",
+      "Access-Control-Request-Method",
+      "Access-Control-Request-Headers",
+      "idauto.debug",
+      "X-idauto-debug",
+      "Authorization"
+   ],
+   "exposedHeaders": [],
+   "supportsCredentials": false,
+   "maxAge": 1800,
+   "customCrossdomainXml": ""
+}
