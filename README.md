@@ -1,22 +1,15 @@
-# Quasar App (client)
+# Access Manager for RapidIdentity
 
-A Quasar Framework app
+This is a prototype application demonstrating how a custom user interface could assist as an access management tool.  This application utilizes the native RapidIdentity API as well as custom API endpoints provided by RapidIdentity Connect with the "Authorization Engine" project.
 
-## Install the dependencies
-```bash
-yarn
-```
+## Authorization Engine
 
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
-```bash
-quasar dev
-```
+### Rule Manager
 
+The Rule Manager handles the management of the Authorization Engine rules.
 
-### Build the app for production
-```bash
-quasar build
-```
-
-### Customize the configuration
-See [Configuring quasar.conf.js](https://quasar.dev/quasar-cli/quasar-conf-js).
+- Create or insert new rules
+- Delete rules
+- Update rules
+- Move rules up in priority
+- Test rules
